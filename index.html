@@ -6,164 +6,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Bruno Bernardes - Portfólio</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Bruno Sales</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Informações</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projetos</a>
-        </li>
-      </ul>
+  <img src="assets/avatar.png" class="rounded mx-auto d-block" id="avatar">
+  <div id="content">
+    <div>
+      <h1 class="mt-4">Bruno Bernardes </h1>
+      <h5 class="text-muted">Desenvolvedor Full-Stack</h5>
+      <p class="text-justify">O objetivo desse portfólio é compartilhar coisas sobre mim, como competências,
+        experiências, conhecimento,
+        projetos que já realizei, tudo sendo disponibilizado aqui e nas plataforma do github e linkedin.</p>
+      <a href="https://github.com/Brunosalesb" class="badge badge-info">Github</a>
+      <!-- <a href="#" class="badge badge-info">Youtube</a> -->
+      <a href="https://br.linkedin.com/in/bruno-bernardes-8a85a0177?trk=people-guest_profile-result-card_result-card_full-click"
+        class="badge badge-info">Linkedin</a>
     </div>
-  </nav>
 
-  <div class="jumbotron">
-    <h1 class="display-4">Portfólio Online</h1>
-    <p class="lead">Olá! Meu nome é Bruno Sales, e este é meu portfólio.</p>
-    <hr class="my-4">
-    <p>Desenvolvedor de sistemas</p>
-  </div>
-
-  <div class="text-center">
-    <h2>Formação Profissional</h2>
-    <br>
-  </div>
-  <div class="text-center">
-    <table class="table table-hover">
-      <thead>
-        <tr>
-          <th scope="col">Conhecimento</th>
-          <th scope="col">Cursando</th>
-          <th scope="col">Cursos concluído</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Html</td>
-          <td>Análise e desenvolvimento de sistemas em SENAI</td>
-          <td>Espanhol Básico</td>
-
-        </tr>
-        <tr>
-          <td>CSS</td>
-          <td>Ensino Médio</td>
-          <td>Inglês avançado</td>
-        </tr>
-        <tr>
-          <td>Javascript</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>C#</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Adobe Illustrator</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Adobe Photpshop</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Adobe XD</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Metodologia Scrum</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>SqlServer</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Git</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>API</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>EntityFramework</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>React</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>React-Native</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <br><br><br>
-  <div class="text-center">
-    <h2>Meus projetos</h2>
-    <br>
-  </div>
-
-  <div class="card-group">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Github</h5>
-        <p class="card-text">Aqui você tem acesso a projetos que ja realizei salvos no github.</p>
-        <a class="btn btn-dark" href="https://github.com/Brunosalesb" role="button">Github</a>
-      </div>
+    <div>
+      <h3 id="mtop" class="font-weight-bold">Sobre mim</h3>
+      <p class="text-justify">Meu nome é Bruno Sales Bernardes, tenho 17 anos e atualmente estou cursando Sistemas de
+        Informação na instituição Anhembi
+        Mobumbi. Tive meu primeiro contato com programação com 16 anos, quando tive a oportunidade de entrar no Senai de
+        informática
+        Cursando Análise e desenvolvimento de sistemas durante 3 semestres, utilizando C#, React, React-Native dentre
+        outras tecnologias passadas para
+        nós durante o curso.
+      </p>
     </div>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Pinterest</h5>
-        <p class="card-text">Aqui você tem acesso a projetos que ja realizei salvos no Pinterest.</p>
-        <a class="btn btn-dark" href="https://br.pinterest.com/bbernardes1745/" role="button">Pinterest</a>
-      </div>
+
+    <div>
+      <h3 id="mtop" class="font-weight-bold">Experiência</h3>
+      <p class="text-justify">No ano de 2019, tive a oportunidade de participar de um projeto durante o último semestre
+        de Análise e desenvolvimento
+        de sistemas, um projeto que foi passado para nós de uma grande empresa brasileira de consultoria da área de TI,
+        um projeto que consistia em
+        um sistema intranet, com a função de gerenciar equipes para projetos, cadastrar funcionários com seus dados
+        pessoais e habilidades técnicas
+        e comportamentais.<br><br>
+        O projeto foi desenvolvido por uma equipe de 5 pessoas durante 1 semestre, utilizando C#, Angular.js, Sql
+        Server, dentre outras tecnologias,
+        além de também ter sido utilizado plataformas como Trello, Azure DevOps e Jira para Monitorar e Controlar o
+        desenvolvimento das sprints do projeto.
+      </p>
     </div>
+
+    <div>
+      <h3 id="mtop" class="font-weight-bold">Competências</h3>
+      <p class="font-weight-bold">Técnicas:</p>
+      <p>C#, JavaScript, React, React-Native, Sql Server, Web Api, Entity Framework, Html5, Css, Bootstrap 4.</p>
+      <p class="font-weight-bold" id="info">Ferramentas:</p>
+      <p>Adobe Illustrator, Adobe Photoshop, Adobe XD, Git, Azure DevOps, Jira.</p>
+      <p class="font-weight-bold" id="info">Idiomas:</p>
+      <p>Inglês avançado, Espanhol Básico.</p>
+      <p class="font-weight-bold" id="info">Metologias:</p>
+      <p>Scrum.</p>
+    </div>
+
+
   </div>
-
-  <br><br><br>
-
-  <nav class="navbar fixed-bottom navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Contatos - bruno.sbernardes@gmail.com / 93015-6508</a>
-    </nav>
-
 </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-  crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </html>
