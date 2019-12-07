@@ -2,80 +2,198 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
-  <title>Bruno Bernardes - Portfólio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/73c30de214.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Bruno Bernardes - Portfólio</title>
 </head>
 
 <body>
-  <img src="assets/avatar.png" class="rounded mx-auto d-block" id="avatar">
-  <div id="content">
-    <div>
-      <h1 class="mt-4">Bruno Bernardes </h1>
-      <h5 class="text-muted">Desenvolvedor Full-Stack</h5>
-      <p class="text-justify">O objetivo desse portfólio é compartilhar coisas sobre mim, como competências,
-        experiências, conhecimento,
-        projetos que já realizei, tudo sendo disponibilizado aqui e nas plataforma do github e linkedin.</p>
-      <a href="https://github.com/Brunosalesb" class="badge badge-info">Github</a>
-      <!-- <a href="#" class="badge badge-info">Youtube</a> -->
-      <a href="https://br.linkedin.com/in/bruno-bernardes-8a85a0177?trk=people-guest_profile-result-card_result-card_full-click"
-        class="badge badge-info">Linkedin</a>
+    <div id="inicio">
+        <div class="BgBlackInicio">
+            <div class="textos">
+                <h1 id="titulo">Bruno Bernardes</h1>
+                <h2 id="titulo2">Desenvolvedor FullStack</h2>
+            </div>
+            <div class="icon">
+                <a href="#nav"><i class="fas fa-arrow-circle-down"></i></a>
+            </div>
+        </div>
     </div>
-
-    <div>
-      <h3 id="mtop" class="font-weight-bold">Sobre mim</h3>
-      <p class="text-justify">Meu nome é Bruno Sales Bernardes, tenho 17 anos e atualmente estou cursando Sistemas de
-        Informação na instituição Anhembi
-        Mobumbi. Tive meu primeiro contato com programação com 16 anos, quando tive a oportunidade de entrar no Senai de
-        informática
-        Cursando Análise e desenvolvimento de sistemas durante 3 semestres, utilizando C#, React, React-Native dentre
-        outras tecnologias passadas para
-        nós durante o curso.
-      </p>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="nav">
+  <a class="navbar-brand" href="#inicio">Portfólio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="#sobreMim">Sobre Mim</a>
+      <a class="nav-item nav-link" href="#experiencia">Experiência</a>
+      <a class="nav-item nav-link " href="#competencia">Competências</a>
+      <a class="nav-item nav-link " href="#perfil">Contatos</a>
     </div>
-
-    <div>
-      <h3 id="mtop" class="font-weight-bold">Experiência</h3>
-      <p class="text-justify">No ano de 2019, tive a oportunidade de participar de um projeto durante o último semestre
-        de Análise e desenvolvimento
-        de sistemas, um projeto que foi passado para nós de uma grande empresa brasileira de consultoria da área de TI,
-        um projeto que consistia em
-        um sistema intranet, com a função de gerenciar equipes para projetos, cadastrar funcionários com seus dados
-        pessoais e habilidades técnicas
-        e comportamentais.<br><br>
-        O projeto foi desenvolvido por uma equipe de 5 pessoas durante 1 semestre, utilizando C#, Angular.js, Sql
-        Server, dentre outras tecnologias,
-        além de também ter sido utilizado plataformas como Trello, Azure DevOps e Jira para Monitorar e Controlar o
-        desenvolvimento das sprints do projeto.
-      </p>
-    </div>
-
-    <div>
-      <h3 id="mtop" class="font-weight-bold">Competências</h3>
-      <p class="font-weight-bold">Técnicas:</p>
-      <p>C#, JavaScript, React, React-Native, Sql Server, Web Api, Entity Framework, Html5, Css, Bootstrap 4.</p>
-      <p class="font-weight-bold" id="info">Ferramentas:</p>
-      <p>Adobe Illustrator, Adobe Photoshop, Adobe XD, Git, Azure DevOps, Jira.</p>
-      <p class="font-weight-bold" id="info">Idiomas:</p>
-      <p>Inglês avançado, Espanhol Básico.</p>
-      <p class="font-weight-bold" id="info">Metologias:</p>
-      <p>Scrum.</p>
-    </div>
-
-
   </div>
-</body>
+</nav>
+    <div id="sobreMim">
+        <div class="BgBlack">
+            <h1 class="text-center">Sobre Mim</h1>
+            <p>Olá, meu nome é Bruno Sales Bernardes, tenho 17 anos e sempre fui apaixonada por tecnologia desde
+                pequeno,
+                mas minha história com programação começou com 16 anos, quando tive a grande oportunidade de entrar no
+                Senai
+                de informática Cursando Análise e desenvolvimento de sistemas durante 3 semestres, onde aprendi muito
+                com
+                ótimos profissionais da área utilizando C#, Javascript, React, React-Native dentre outras tecnologias
+                passadas para
+                nós
+                durante o curso, e aplicadas em várias projetos realizados ao decorrer dos semestres, e atualmente estou
+                cursando Sistemas de informação na instituição Anhembi Morumbi.
+            </p>
+        </div>
+    </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <div id="experiencia">
+        <div class="BgBlack">
+            <h1 class="text-center">Experiência</h1>
+            <p>No ano de 2019, tive a oportunidade de participar de um projeto durante o último semestre de Análise e
+                desenvolvimento de sistemas, um projeto que foi passado para nós de uma grande empresa brasileira de
+                consultoria da área de TI, um projeto que consistia em um sistema intranet, com a função de gerenciar
+                equipes para projetos, sistema de vagas dentro da empresa, cadastro de novos funcionários com seus dados
+                pessoais e habilidades técnicas e comportamentais dentre outras funcionalidades.
+                <br><br>
+                O projeto foi desenvolvido por uma equipe de 5 pessoas durante 1 semestre, se baseave em um sistema
+                monolítico, as tecnologias utilizadas foram C#, Angular.js, Sql Server, EntityFramework, AutoMapper,
+                Odata,
+                dentre outras tecnologias, além de também ter sido utilizado plataformas como Trello, Azure DevOps e
+                Jira
+                para Monitorar e Controlar o desenvolvimento das sprints do projeto.
+            </p>
+        </div>
+    </div>
+
+    <div id="competencia">
+        <div class="BgBlack">
+            <h1 class="text-center">Competências</h1>
+            <p class="font-weight-bold" id="info">Técnicas:</p>
+            <p>C#, JavaScript, React, React-Native, Angular, Sql Server, Web Api, Entity Framework, Html5, Css,
+                Bootstrap 4, Odata.
+            </p>
+            <p class="font-weight-bold" id="info">Ferramentas:</p>
+            <p>Adobe Illustrator, Adobe Photoshop, Adobe XD, Git, Azure DevOps, Jira.</p>
+            <p class="font-weight-bold" id="info">Idiomas:</p>
+            <p>Inglês avançado, Espanhol Básico.</p>
+            <p class="font-weight-bold" id="info">Metologias:</p>
+            <p class="padding">Scrum.</p>
+        </div>
+    </div>
+
+    <div id="perfil">
+        <h1 class="text-center">Contatos</h1>
+        <div id="accordion">
+            <div class="card" id="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="false" aria-controls="collapseOne">
+                            <span>Email</span>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <span>brunosbernardes01@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            <span>LinkedIn</span>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <a
+                            href="https://www.linkedin.com/in/bruno-bernardes-8a85a0177/?trk=people-guest_profile-result-card_result-card_full-click&originalSubdomain=br">Ver
+                            perfil no LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            <span>Github</span>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <a href="https://github.com/Brunosalesb">Ver perfil no Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        // Select all links with hashes
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function (event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1500, function () {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+    </script>
+</body>
 
 </html>
