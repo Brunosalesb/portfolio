@@ -2,11 +2,17 @@
     margin: 0;
 }
 
+p{
+    font-size: 20px;
+}
+
 #inicio{
     width: 100%;
     height: 100vh;
-    background-image: url("assets/business-code-coding-computer-270632.jpg");
-    background-repeat: round;
+    background-image: url("assets/iphone-notebook-pen-working-34578.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .BgBlack{
@@ -15,16 +21,10 @@
     height: 100vh;
     opacity: 0.8;
 }
-.BgBlackInicio{
-    background-color: black;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.8;
-}
 
 .textos{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 25vh;
     display: flex;
     flex-direction: column;
     color: white;
@@ -33,27 +33,25 @@
 }
 
 #titulo{
-    font-size: 400%;
+    font-size: 72px;
 }
 
 #titulo2{
-    font-size: 200%;
+    font-size: 56px;
 }
 
 .icon{
     color: white;
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
 }
 
 .icon i {
-    font-size: 80px;
+    font-size: 100px;
     color: white;
-    opacity: 0.8;
 }
 
 #nav{
-    background-color: whitesmoke;
     user-select: none;
 }
 
@@ -62,189 +60,162 @@
 }
 
 #sobreMim{
-    background-image: url("assets/person-pointing-numeric-print-1342460.jpg");
-    height: 100vh;
+    background-color: black;
+    height: auto;
     width: 100%;
+    padding-bottom: 10%;
+}
+
+#sobreMim p i{
+    margin-left: 1%;
+}
+
+.container{
+    display: flex;
+}
+
+.containerContato{
+    text-align: center;
     color: white;
-    background-repeat: round;
-    font-size: 24px;
+}
+
+#avatar{
+    color: white;
+    width: 50%;
+    font-size: 50vh;
+    padding-top: 5%;
 }
 
 #sobreMim h1{
-    padding-top: 9%;
+    padding: 9% 0 6% 0;
     color: white;
 }
 
 #sobreMim p{
-    padding-top: 6%;
     color: white;
     margin: auto;
-    width: 70%;
+    width: 50%;
     text-align: justify;
+    background-color:#060606;
+    border: solid 1px white;
+    padding: 2%;
+}
+
+#competencia{
+    background-color: #060607;
+    height: auto;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+#competencia h1{
+    padding: 9% 0 6% 0;
+    color: white;
+}
+
+#card{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    margin-bottom: 4%;
+}
+
+#card2{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
 }
 
 #experiencia{
-    background-image: url("assets/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg");
-    height: 100vh;
+    background-color: black;
+    height: auto;
     width: 100%;
-    color: white;
-    background-repeat: round;
-    font-size: 24px;
+    padding-bottom: 10%;
 }
 
 #experiencia h1{
-    padding-top: 9%;
+    padding: 9% 0 6% 0;
     color: white;
 }
 
 #experiencia p{
-    padding-top: 6%;
     color: white;
     margin: auto;
     width: 70%;
     text-align: justify;
+    background-color:#060606;
+    border: solid 1px white;
+    padding: 2%;
 }
-
-#competencia{
-    background-image: url("assets/lines-of-code-2653362.jpg");
-    height: 100vh;
-    width: 100%;
-    color: white;
-    background-repeat: round;
-    font-size: 24px;
-}
-
-#competencia h1{
-    padding-top: 9%;
-    padding-bottom: 3%;
-    color: white;
-}
-
-#competencia p{
-    padding-top: 1%;
-    color: white;
-    margin: auto;
-    width: 70%;
-    text-align: justify;
-}
-
-#perfil{
-    background-image: url("assets/iphone-notebook-pen-working-34578.jpg");
-    height: 100vh;
-    width: 100%;
-    color: white;
-    background-repeat: round;
-    font-size: 24px;
-}
-
-#perfil h1{
-    padding-top: 9%;
-    padding-bottom: 9%;
-    color: white;
-}
-
-#perfil p{
-    padding-top: 1%;
-    color: white;
-    margin: auto;
-    width: 70%;
-    text-align: justify;
-}
-
-#card{
-    width: 50%;
-    margin: auto;
-    user-select: initial;
-}
-
-#card button{
-    text-decoration: none;
-}
-
-#card span{
-    color: black;
-}
-
-#card a{
-    color: black;
-}
-
-@media screen and (max-width: 1100px) {
-    #inicio{
-        width: 100%;
-        height: 100vh;
+@media screen and (max-width: 999px) {
+    #titulo{
+        font-size: 56px;
     }
-
+    
+    #titulo2{
+        font-size: 40px;
+    }
+    
     .icon{
-        margin-top: 30%;
+        margin-top: 15%;
+    }
+    
+    .icon i {
+        font-size: 90px;
     }
 
-    .BgBlack{
-        height: auto;
-    }
-
-    .BgBlackInicio{
-        height: 100vh;
-    }
-
-    #sobreMim{
-        height: auto;
+    #avatar{
         width: 100%;
+        text-align: center;
+        font-size: 20vh;
+    }
+
+    .container{
+        display: unset;
     }
 
     #sobreMim p{
-        width: 90%;
-        padding-bottom: 20%;
-    }
-
-    #experiencia{
-        height: auto;
-        width: 100%;
-    }
-
-    #experiencia p{
-        width: 90%;
-        padding-bottom: 20%;
-    }
-
-    #competencia{
-        height: auto;
-        width: 100%;
-    }
-
-    #competencia p{
-        width: 90%;
-        padding-bottom: 3%;
-    }
-
-    #competencia .padding{
-        padding-bottom: 20%;
-    }
-
-    #perfil{
-        height: auto;
-        width: 100%;
-        padding-bottom: 20%;
-    }
-
-    #perfil .BgBlackInicio{
-        height: none;
-    }
-
-    #card{
-        width: 80%;
+        width: 70%;
     }
     
 }
 
-@media screen and (max-width: 600px) {
-    .icon{
-        margin-top: 50%;
+@media screen and (max-width: 550px) {
+    .textos{
+        padding-top: 30vh;
     }
-}
-
-@media screen and (max-width: 400px) {
+    
+    #titulo{
+        font-size: 40px;
+    }
+    
+    #titulo2{
+        font-size: 24px;
+    }
+    
     .icon{
-        margin-top: 80%;
+        margin-top: 15%;
+    }
+    
+    .icon i {
+        font-size: 70px;
+    }
+
+    #avatar{
+        width: 100%;
+        text-align: center;
+        font-size: 15vh;
+    }
+
+    .container{
+        display: unset;
+    }
+
+    #sobreMim p{
+        width: 90%;
+    }
+
+    #experiencia p{
+        width: 90%;
     }
 }
