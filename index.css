@@ -96,13 +96,13 @@ p{
     margin: auto;
     width: 50%;
     text-align: justify;
-    background-color:#060606;
+    background-color: #262626;
     border: solid 1px white;
     padding: 2%;
 }
 
 #competencia{
-    background-color: #060607;
+    background-color: #262626;
     height: auto;
     width: 100%;
     padding-bottom: 10%;
@@ -143,7 +143,7 @@ p{
     margin: auto;
     width: 70%;
     text-align: justify;
-    background-color:#060606;
+    background-color: #262626;
     border: solid 1px white;
     padding: 2%;
 }
@@ -176,6 +176,7 @@ p{
 
     #sobreMim p{
         width: 70%;
+        margin-top: 10%;
     }
     
 }
@@ -213,6 +214,7 @@ p{
 
     #sobreMim p{
         width: 90%;
+        margin-top: 10%;
     }
 
     #experiencia p{
