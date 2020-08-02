@@ -1,180 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="index.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/73c30de214.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <title>Bruno Bernardes - Portfólio</title>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <title>Bruno Sales - Portfolio</title>
 </head>
 
-<body id="body">
-    <div id="inicio">
-        <div class="BgBlack">
-            <div class="textos">
-                <h1 id="titulo">BRUNO BERNARDES</h1>
-                <h2 id="titulo2">DESENVOLVEDOR FULLSTACK</h2>
-            </div>
-            <div class="icon">
-                <a href="#nav"><i class="fas fa-arrow-circle-down"></i></a>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="nav">
-        <a class="navbar-brand" href="#inicio">Portfólio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#sobreMim">Sobre Mim</a>
-                <a class="nav-item nav-link " href="#competencia">Competências</a>
-                <a class="nav-item nav-link" href="#experiencia">Experiência</a>
-            </div>
-        </div>
-    </nav>
-    <div id="sobreMim">
-        <h1 class="text-center">Sobre Mim</h1>
-        <div class="container">
-            <i id="avatar" class="fas fa-user-circle"></i>
-            <p>Olá, meu nome é Bruno Sales Bernardes, tenho 17 anos e sempre fui apaixonada por tecnologia desde
-                pequeno,
-                mas minha história com programação começou com 16 anos, quando tive a grande oportunidade de entrar no
-                Senai
-                de informática Cursando Análise e desenvolvimento de sistemas durante 3 semestres, onde aprendi muito
-                com
-                ótimos profissionais da área utilizando C#, Javascript, React, React-Native dentre outras tecnologias
-                passadas para
-                nós
-                durante o curso, e aplicadas em várias projetos realizados ao decorrer dos semestres, e atualmente estou
-                cursando Sistemas de informação na instituição Anhembi Morumbi.<br><br>
-                Email:
-                brunosbernardes01@gmail.com<br>
-                Redes sociais:
-                <a href="https://www.linkedin.com/in/bruno-bernardes-8a85a0177"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/Brunosalesb"><i class="fab fa-github"></i></a>
-
-            </p>
-        </div>
-    </div>
-
-    <div id="competencia">
-        <h1 class="text-center">Competências</h1>
-        <div class="row" style="width: 90%;margin: auto;justify-content: center;">
-            <div class="col-sm-10">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Técnicas</h5>
-                        <p class="card-text">C#, React, .Net Framework, Web Api, Rest, Entity Framework, React-Native, JavaScript, Angular,
-                            Bootstrap 4, Sql Server, JSON, JWT, HTML5, CSS, ASP.NET, MVC, Razor, Odata.</p>
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="m-auto text-center">
+                    <a href="https://www.linkedin.com/in/bruno-sales-bernardes/" target="_blank"><img src="assets/images/me.jpeg" class="me mt-4" alt="minha foto"></a>
+                    <h1 class="mt-3">Bruno Sales</h1>
+                    <h5>Desenvolvedor full-stack</h5>
+                    <div>
+                        <ul class="contato list-inline mt-5 d-flex justify-content-around">
+                            <li class="list-inline-item"><a class="h5" target="_blank" href="https://github.com/Brunosalesb">Github</a></li>
+                            <li class="list-inline-item"><a class="h5" target="_blank" href="https://www.linkedin.com/in/bruno-sales-bernardes/">LinkedIn</a></li>
+                            <li class="list-inline-item"><a class="h5" target="_blank" href="">Email</a></li>
+                        </ul>
+                        <hr class="barra mt-0">
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row" style="width: 90%;margin: auto;justify-content: center;">
-            <div class="col-sm-10">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Ferramentas</h5>
-                        <p class="card-text">Adobe Illustrator, Adobe Photoshop, Adobe XD, Git, Azure DevOps, Jira.</p>
+        </header>
+        <main>
+            <div class="carreira">
+                <div class="row">
+                    <div class="m-auto text-center">
+                        <h2 class="mb-0">Carreira</h2>
+                        <hr class="barra">
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row" style="width: 90%;margin: auto;justify-content: center;">
-            <div class="col-sm-10">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Idiomas</h5>
-                        <p class="card-text">Inglês avançado, Espanhol básico.</p>
-                    </div>
+                <div class="row">
+                    <p class="m-auto">Vivendo no mundo da programação desde 2018, começei criando websites e aplicativos completos, desenvolvendo tanto o back-end
+                        como o front-end de meus projetos, começei no mercado de trabalho atuando com desenvolvedor full-stack, onde pude aprender coisas novas e melhorar
+                        minhas habilidades e competências.</p>
                 </div>
             </div>
-        </div>
-        <div class="row" style="width: 90%;margin: auto;justify-content: center;">
-            <div class="col-sm-10">
-                <div class="card" id="card2">
-                    <div class="card-body">
-                        <h5 class="card-title">Metodologia Ágil</h5>
-                        <p class="card-text">Metodologia Scrum.</p>
+            <div class="projeto">
+                <div class="row">
+                    <div class="m-auto text-center">
+                        <h2 class="mb-0">Meus Projetos</h2>
+                        <hr class="barra">
                     </div>
                 </div>
+                <div class="row">
+                    <p class="m-auto"><strong class="h4">Be The Hero -</strong><br><br>Projeto idealizado pela RocketSeat, resolve o problema de ONGs em encontrar com
+                        facilidade pessoas dispostas a ajudar financeiramente em seus casos.<br><br>Desenvolvido com <strong>Node.js, React, React-native.</strong></p>
+                </div>
+                <div class="row">
+                <img src="assets/images/be-the-hero.png" class="beTheHero" alt="be-the-hero">
+                </div>
+                <div class="row mt-5">
+                    <p class="m-auto"><strong class="h4">Remember Me -</strong><br><br>Site onde você pode criar qualquer tipo de lembrete pessoal, como um evento, uma reunião, prova,
+                        dentre outros tipos.<br><br>Desenvolvido com <strong>Angular e Google Firebase.</strong></p>
+                </div>
+                <div class="row">
+                <img src="assets/images/be-the-hero.png" class="beTheHero" alt="be-the-hero">
+                </div>
             </div>
-        </div>
+        </main>
+        <footer>
+            <!-- <div class="row">
+                <div class="m-auto text-center">
+                    <hr class="barra mb-0">
+                    <ul class="contato list-inline d-flex justify-content-around">
+                        <li class="list-inline-item"><a class="h5" target="_blank" href="https://github.com/Brunosalesb"><img class="contatoIcon" src="assets/images/github.jpg" alt=""></a></li>
+                        <li class="list-inline-item"><a class="h5" target="_blank" href="https://www.linkedin.com/in/bruno-sales-bernardes/"><img class="contatoIcon" src="assets/images/linkedin.png" alt=""></a></li>
+                        <li class="list-inline-item"><a class="h5" target="_blank" href="">Email</a></li>
+                    </ul>
+                </div>
+            </div> -->
+        </footer>
     </div>
-
-    <div id="experiencia">
-        <h1 class="text-center">Experiência</h1>
-        <p>No ano de 2019, tive a oportunidade de participar de um projeto durante o último semestre de Análise e
-            desenvolvimento de sistemas, um projeto que foi passado para nós de uma grande empresa brasileira de
-            consultoria da área de TI, um projeto que consistia em um sistema intranet, com a função de gerenciar
-            equipes para projetos, sistema de vagas dentro da empresa, cadastro de novos funcionários com seus dados
-            pessoais e habilidades técnicas e comportamentais dentre outras funcionalidades.
-            <br><br><br>
-            O projeto foi desenvolvido por uma equipe de 5 pessoas durante 1 semestre, se baseave em um sistema
-            monolítico, as tecnologias utilizadas foram C#, Angular.js, Sql Server, EntityFramework, AutoMapper,
-            Odata,
-            dentre outras tecnologias, além de também ter sido utilizado plataformas como Trello, Azure DevOps e
-            Jira
-            para Monitorar e Controlar o desenvolvimento das sprints do projeto.
-        </p>
-    </div>
-
-
-    <script>
-        // Select all links with hashes
-        $('a[href*="#"]')
-            // Remove links that don't actually link to anything
-            .not('[href="#"]')
-            .not('[href="#0"]')
-            .click(function (event) {
-                // On-page links
-                if (
-                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-                    &&
-                    location.hostname == this.hostname
-                ) {
-                    // Figure out element to scroll to
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    // Does a scroll target exist?
-                    if (target.length) {
-                        // Only prevent default if animation is actually gonna happen
-                        event.preventDefault();
-                        $('html, body').animate({
-                            scrollTop: target.offset().top
-                        }, 1500, function () {
-                            // Callback after animation
-                            // Must change focus!
-                            var $target = $(target);
-                            $target.focus();
-                            if ($target.is(":focus")) { // Checking if the target was focused
-                                return false;
-                            } else {
-                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                                $target.focus(); // Set focus again
-                            };
-                        });
-                    }
-                }
-            });
-    </script>
+    <script src="assets/bootstrap/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/popper.min.js"></script>
 </body>
 
 </html>

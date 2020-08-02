@@ -1,223 +1,57 @@
-*{
-    margin: 0;
+.me{
+width: 40%;
+height: 40%;
+border-radius: 50%;
+}
+
+h5{
+    color: #04C2C9!important;
 }
 
 p{
-    font-size: 20px;
+    font-size: 18px;
+    width: 90%;
 }
 
-#inicio{
-    width: 100%;
-    height: 100vh;
-    background-image: url("assets/iphone-notebook-pen-working-34578.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+.contato{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.BgBlack{
-    background-color: black;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.8;
+.barra{
+    border-top: 1px solid #04C2C9!important;
 }
 
-.textos{
-    text-align: center;
-    padding-top: 25vh;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    user-select: none;
-
+a:hover{
+    color: #04C2C9!important;
+    transition: 0.3s;
 }
 
-#titulo{
-    font-size: 72px;
+a{
+    text-decoration: none!important;
 }
 
-#titulo2{
-    font-size: 56px;
+main{
+    margin-top: 7%;
 }
 
-.icon{
-    color: white;
+.carreira{
+    margin-bottom: 7%;
+}
+
+.beTheHero{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+footer{
     margin-top: 10%;
-    text-align: center;
+    margin-bottom: 2%;
 }
 
-.icon i {
-    font-size: 100px;
-    color: white;
-}
-
-#nav{
-    user-select: none;
-}
-
-#nav a{
-    color: black;
-}
-
-#sobreMim{
-    background-color: black;
-    height: auto;
-    width: 100%;
-    padding-bottom: 10%;
-}
-
-#sobreMim p i{
-    margin-left: 1%;
-}
-
-.container{
-    display: flex;
-}
-
-.containerContato{
-    text-align: center;
-    color: white;
-}
-
-#avatar{
-    color: white;
-    width: 50%;
-    font-size: 50vh;
-    padding-top: 5%;
-}
-
-#sobreMim h1{
-    padding: 9% 0 6% 0;
-    color: white;
-}
-
-#sobreMim p{
-    color: white;
-    margin: auto;
-    width: 50%;
-    text-align: justify;
-    background-color: #262626;
-    border: solid 1px white;
-    padding: 2%;
-}
-
-#competencia{
-    background-color: #262626;
-    height: auto;
-    width: 100%;
-    padding-bottom: 10%;
-}
-
-#competencia h1{
-    padding: 9% 0 6% 0;
-    color: white;
-}
-
-#card{
-    background-color: black;
-    color: white;
-    border: solid 1px white;
-    margin-bottom: 4%;
-}
-
-#card2{
-    background-color: black;
-    color: white;
-    border: solid 1px white;
-}
-
-#experiencia{
-    background-color: black;
-    height: auto;
-    width: 100%;
-    padding-bottom: 10%;
-}
-
-#experiencia h1{
-    padding: 9% 0 6% 0;
-    color: white;
-}
-
-#experiencia p{
-    color: white;
-    margin: auto;
-    width: 70%;
-    text-align: justify;
-    background-color: #262626;
-    border: solid 1px white;
-    padding: 2%;
-}
-@media screen and (max-width: 999px) {
-    #titulo{
-        font-size: 56px;
-    }
-    
-    #titulo2{
-        font-size: 40px;
-    }
-    
-    .icon{
-        margin-top: 15%;
-    }
-    
-    .icon i {
-        font-size: 90px;
-    }
-
-    #avatar{
-        width: 100%;
-        text-align: center;
-        font-size: 20vh;
-    }
-
-    .container{
-        display: unset;
-    }
-
-    #sobreMim p{
-        width: 70%;
-        margin-top: 10%;
-    }
-    
-}
-
-@media screen and (max-width: 550px) {
-    .textos{
-        padding-top: 30vh;
-    }
-    
-    #titulo{
-        font-size: 40px;
-    }
-    
-    #titulo2{
-        font-size: 24px;
-    }
-    
-    .icon{
-        margin-top: 15%;
-    }
-    
-    .icon i {
-        font-size: 70px;
-    }
-
-    #avatar{
-        width: 100%;
-        text-align: center;
-        font-size: 15vh;
-    }
-
-    .container{
-        display: unset;
-    }
-
-    #sobreMim p{
-        width: 90%;
-        margin-top: 10%;
-    }
-
-    #experiencia p{
-        width: 90%;
-    }
+.contatoIcon{
+    width: 8%;
+    height: 100%;
 }
