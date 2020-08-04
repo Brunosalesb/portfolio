@@ -19,10 +19,6 @@ p{
     padding: 0;
 }
 
-.barra{
-    border-top: 1px solid #04C2C9!important;
-}
-
 a:hover{
     color: #04C2C9!important;
     transition: 0.3s;
@@ -30,6 +26,7 @@ a:hover{
 
 a{
     text-decoration: none!important;
+    color: black!important;
 }
 
 main{
@@ -40,18 +37,12 @@ main{
     margin-bottom: 7%;
 }
 
-.beTheHero{
+.projetoImg{
     width: 90%;
     height: 90%;
     margin: auto;
 }
 
-footer{
+.footer{
     margin-top: 10%;
-    margin-bottom: 2%;
-}
-
-.contatoIcon{
-    width: 8%;
-    height: 100%;
 }
